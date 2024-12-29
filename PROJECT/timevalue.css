@@ -1,0 +1,94 @@
+body
+{
+    background-color: rgb(165,183,195);
+    text-align: center;
+    
+
+}
+#h1a
+{
+  font-family: Arial, sans-serif ;
+  top:100px;
+    
+}
+#box1
+{
+    background-color: white;
+    width:400px;
+    height:400px;
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+   font-family: Arial, sans-serif ;
+   font-size: 26px;
+   top:800px;
+   padding:30px;
+   margin-left:auto;
+   margin-right:auto;
+   
+  
+   
+ 
+}
+#button
+{
+    font-family: Arial, sans-serif ;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius:10px;
+    position:relative;
+
+    
+    
+    
+
+}
+button:hover
+{
+    transform:scale(1.2);
+}
+
+#ratebx
+{
+    position:relative;
+    left:23px;
+   
+}
+#timebx
+{
+    position:relative;
+    left:10px;
+    
+}
+#futurebx
+{
+    position:relative;
+    left:7px;
+}
+#result
+{
+    position:absolute;
+    top:420px;
+    left:450px;
+}
+#myreset
+{
+    font-family: Arial, sans-serif ;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius:10px;
+    position:relative;
+
+
+}
+myreset:hover
+{
+    transform: scale(1.2);
+
+}
+#compoundbx
+{
+    position:relative;
+}

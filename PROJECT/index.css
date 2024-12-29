@@ -1,0 +1,174 @@
+body
+{
+    background-image:url("IMAGES/background1.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+       
+}
+#box1
+{
+    background-color:black;
+    height:100px;
+   
+}
+.fa-question
+{
+    font-size:27px;
+    color:white;
+    position:relative;
+    top:36px;
+    left:950px;
+    transition: color 0.25;
+
+}
+.fa-question:hover
+{  
+    color:rgb(149,156,152);
+    transform: scale(1.5);
+}
+
+.fa-house
+{
+    font-size:27px;
+    color:white;
+    position:relative;
+    top:36px;
+    left:1000px;
+    transition: color 0.25;
+}
+.fa-house:hover
+{ color:rgb(149,156,152);
+    transform: scale(1.5);
+}
+
+.fa-user
+{
+    font-size:27px;
+    color:white;
+    position:relative;
+    top:36px;
+    left:1050px;
+    transition: color 0.25;
+
+}
+.fa-user:hover
+{
+     color:rgb(149,156,152);
+    transform: scale(1.5);
+
+}
+
+
+
+#p1
+{
+  
+
+  font-family: Arial, sans-serif ;
+  font-size:24px;
+  position:relative;
+  top:30px;
+  left:20px;
+
+}
+.buttons
+{
+    font-family:Arial,sans-serif;
+    font-size: 28px;
+    color:white;
+    background-color: black;
+    position:relative;
+    top:20px;
+    left:20px;
+    padding:14px;
+    border-radius:26px;
+    transition: background-color 0.25;
+    
+}
+.buttons:hover
+{
+     color:rgb(149,156,152);
+     transform: scale(1.1);
+
+}
+
+
+
+#ah1
+{
+  color:black;
+  font-size:28px;
+  font-weight: normal;
+  font-family:Arial, sans-serif;
+  position:relative;
+  top:30px;
+  left:35px;
+}
+#ul1
+{
+    font-size: 24px;
+    font-family:Arial,sans-serif;
+    position:relative;
+    top:30px;
+    
+    list-style-type: none;
+
+}
+#bh1
+{
+  color:black;
+  font-size:28px;
+  font-weight: normal;
+  font-family:Arial, sans-serif;
+  position:relative;
+  top:30px;
+  left:35px;
+}
+#ul2
+{
+    font-size: 24px;
+    font-family:Arial,sans-serif;
+    position:relative;
+    top:30px;
+    
+}
+h3
+{
+            font-size:1em;
+            font-family: serif;
+            color: transparent;
+            animation: effect 2s linear infinite;
+            position:relative;
+            top:15px;
+            left:35px;
+         
+}
+@keyframes effect {
+    0% {
+        background: linear-gradient(red,red);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(purple,purple);
+        -webkit-background-clip: text;
+    }
+}
+
+#functions
+{
+    background-color: black;
+    color:white;
+    font-family: Arial, sans-serif;
+    position:relative;
+    top:16px;
+    left:780px;
+    border: 0px;
+}
+.functions:hover
+{
+    transform: scale(1.2);
+
+}
+

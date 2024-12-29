@@ -1,0 +1,91 @@
+body
+{
+    background-color: rgb(165,183,195);
+    text-align: center;
+    
+
+}
+#h1a
+{
+  font-family: Arial, sans-serif ;
+  top:100px;
+    
+}
+#box1
+{
+    background-color: white;
+    width:300px;
+    height:390px;
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+   font-family: Arial, sans-serif ;
+   font-size: 26px;
+   top:800px;
+   padding:30px;
+   
+   
+ 
+}
+#ratebx
+{
+    position:relative;
+    left:23px;
+   
+}
+#timebx
+{
+    position: relative;
+    left:18px;
+
+}
+#compoundbx
+{
+    position:relative;
+}
+#compoundintbx
+{
+    position:relative;
+    left:23px;
+}
+#myreset
+{
+    font-family: Arial, sans-serif ;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius:10px;
+    position:relative;
+    left:15px;
+
+
+}
+myreset:hover
+{
+    transform: scale(1.2);
+
+}
+#button
+{
+    font-family: Arial, sans-serif ;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius:10px;
+    position:relative;
+    left:15px;
+    
+    
+    
+
+}
+button:hover
+{
+    transform:scale(1.2);
+}
+#result
+{
+    position:absolute;
+    top:420px;
+    left:450px;
+}

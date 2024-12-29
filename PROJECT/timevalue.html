@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TIME VALUE</title>
+    <link rel="icon" type="image/jpg" href="/IMAGES/final.jpg">
+    <link rel="stylesheet" href="timevalue.css">
+
+
+</head>
+<body>
+   <h1 id="h1a">TIME VALUE CALCULATOR</h1>
+   <div id="box1" class="common">
+       <form onsubmit="return false;">
+           <div id="amountbx" >
+               
+           <label for="amount">AMOUNT:</label>
+           <input type="text" id="amount" placeholder="AMOUNT ">
+           </div>
+           
+           <div id="ratebx" >
+           <label for="rate">RATE:</label>
+           <input type="text" id="rate" placeholder="RATE" ></div>
+
+           <div id="timebx">
+           <label for="time">TIME IN YEARS:</label>
+           <input type="text" id="time" placeholder="0">
+           </div>
+
+           <div id="compoundbx">
+                <label for="compound">COMPOUND:</label>
+                <input type="text" id="compound">
+           </div>
+           <br>
+           <div id="presentbx" >
+           <input type="radio" id="present" name="choose">
+           <label for="present" >PRESENT VALUE</label></div>
+        
+           <div id="futurebx" >
+           <input type="radio" id="future" name="choose">
+           <label for="future">FUTURE VALUE </label>
+           </div>
+           <br>
+           <button id="button" type="submit" onclick="convert()" >SUBMIT</button>
+           <button type="reset" id="myreset" >RESET</button>
+           <br>
+           <br>
+           <p  id="result"></p>
+           
+
+       </form>
+       
+   </div>
+    <script src="timevalue.js"></script>
+</body>
+</html>
